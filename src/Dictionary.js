@@ -7,6 +7,9 @@ export default function Dictionary() {
 
 	function handleResponse(response) {
 		console.log(response.data);
+		if (response.data.message === "Word not found") {
+			alert("Word not found");
+		}
 	}
 
 	function search(event) {
