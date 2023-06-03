@@ -5,6 +5,9 @@
 	color: #3a405a;
 }
 
+.App main {
+	margin: 20px;
+}
 .App footer {
 	color: #333333;
 	font-size: 12px;
