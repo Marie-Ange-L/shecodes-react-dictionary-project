@@ -1,4 +1,32 @@
+.Dictionary {
+	max-width: 600px;
+	margin: 0 auto;
+	color: #e6e6e6;
+}
 .Dictionary p {
 	font-size: 14px;
+	color: #333;
+	line-height: 1.5rem;
+}
+
+.Dictionary p.intro {
+	text-align: center;
+	font-size: 22px;
+	font-weight: 700;
 	color: #3a405a;
+}
+
+.Dictionary section {
+	background-color: #f7f7f7;
+	padding: 25px;
+	border-radius: 4px;
+	margin: 25px 0;
+	box-shadow: -1px 2px 6px 1px rgba(58, 64, 90, 0.15);
+}
+
+.Dictionary input {
+	width: 100%;
+	padding: 6px 4px;
+	border: 1px solid #b3b3b3;
+	border-radius: 4px;
 }
