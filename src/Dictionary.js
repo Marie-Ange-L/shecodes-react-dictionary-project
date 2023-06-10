@@ -11,7 +11,6 @@ export default function Dictionary() {
 	let [photos, setPhotos] = useState([]);
 
 	function handleDictionaryResponse(response) {
-		console.log(response.word);
 		setResults(response.data);
 		if (response.data.message === "Word not found") {
 			alert("❗Word not found❗ Please enter a new word 🤓");
@@ -51,7 +50,7 @@ export default function Dictionary() {
 
 	return (
 		<div className="Dictionary">
-			<p class="intro">What word do you want to look up?</p>
+			<p className="intro">What word do you want to look up?</p>
 			<form onSubmit={search}>
 				<input
 					type="search"
@@ -61,8 +60,8 @@ export default function Dictionary() {
 					id="myInput"
 				/>
 			</form>
-			<Photos photos={photos} />
 			<Results results={results} />
+			<Photos photos={photos} />
 		</div>
 	);
 }
