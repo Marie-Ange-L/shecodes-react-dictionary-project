@@ -15,7 +15,7 @@ export default function Photos(props) {
 										key="index"
 										className="img-fluid"
 										alt={photo.alt}
-										title="Click to see original photo on Pexels.com"
+										title={`Click to see the original photo of ${photo.photographer} on Pexels.com`}
 									/>
 								</a>
 							</div>
