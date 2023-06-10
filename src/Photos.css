@@ -1,0 +1,11 @@
+.Photos img {
+	border-radius: 2px;
+	margin: 10px 0;
+	opacity: 85%;
+	border: solid 3px #f7f7f7;
+}
+
+.Photos img:hover {
+	opacity: 100%;
+	border: none;
+}
