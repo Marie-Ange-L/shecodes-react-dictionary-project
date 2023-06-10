@@ -31,7 +31,11 @@ export default function Dictionary() {
 		<div className="Dictionary">
 			<p class="intro">What word do you want to look up?</p>
 			<form onSubmit={search}>
-				<input type="search" onChange={handleKeywordChange} />
+				<input
+					type="search"
+					onChange={handleKeywordChange}
+					placeholder="Type a word..."
+				/>
 			</form>
 			<Results results={results} />
 		</div>

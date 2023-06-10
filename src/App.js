@@ -14,7 +14,7 @@ export default function App() {
 			</main>
 			<footer>
 				<p>
-					SheCodes project coded by{" "}
+					Project coded by{" "}
 					<a
 						href="https://www.linkedin.com/in/marie-ange-lhernould/"
 						target="_blank"
@@ -22,7 +22,7 @@ export default function App() {
 					>
 						Marie-Ange L.
 					</a>{" "}
-					— See on{" "}
+					using SheCodes Dictionary and Images APIs — See on{" "}
 					<a
 						href="https://github.com/Marie-Ange-L/shecodes-react-dictionary-project"
 						target="_blank"
@@ -33,13 +33,13 @@ export default function App() {
 					.
 				</p>
 				<p className="App-img-credit">
-					•{" "}
+					• Top image by{" "}
 					<a
 						href="https://www.freepik.com/free-vector/flat-colorful-books-plants-stand-bookshelf_37476481.htm#query=illustrations%20bookshelf&position=42&from_view=search&track=ais"
 						target="_blank"
 						rel="noreferrer"
 					>
-						Image by redgreystock
+						redgreystock
 					</a>{" "}
 					on Freepik •
 				</p>

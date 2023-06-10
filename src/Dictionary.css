@@ -30,3 +30,27 @@
 	border: 1px solid #b3b3b3;
 	border-radius: 4px;
 }
+
+.Dictionary input::placeholder {
+	color: #b3b3b3;
+	font-size: 14px;
+}
+
+.Dictionary input,
+select,
+textarea {
+	color: #333;
+	padding-left: 10px;
+	font-size: 15px;
+}
+
+@media (max-width: 450px) {
+	.Dictionary p.intro {
+		font-size: 18px;
+	}
+
+	.Dictionary p {
+		font-size: 13px;
+		line-height: 1.3rem;
+	}
+}
