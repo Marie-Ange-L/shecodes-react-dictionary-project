@@ -24,22 +24,30 @@ export default function Dictionary() {
 
 	function search(event) {
 		event.preventDefault();
+		document.getElementById("myInput").blur();
 		const apiKey = "c0ca36f1te5cd0bd24a89c30e4524bbo";
 		let apiUrl = `https://api.shecodes.io/dictionary/v1/define?word=${keyword}&key=${apiKey}`;
 		axios.get(apiUrl).then(handleResponse).catch(handleErrorResponse);
 	}
 
+	function clearInput() {
+		document.getElementById("myInput").value = "";
+	}
+
 	function handleKeywordChange(event) {
 		setKeyword(event.target.value);
 	}
+
 	return (
 		<div className="Dictionary">
 			<p class="intro">What word do you want to look up?</p>
 			<form onSubmit={search}>
 				<input
 					type="search"
+					onClick={clearInput}
 					onChange={handleKeywordChange}
 					placeholder="Type a word..."
+					id="myInput"
 				/>
 			</form>
 			<Results results={results} />
