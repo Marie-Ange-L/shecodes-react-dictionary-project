@@ -1,29 +1,29 @@
 .Results h1 {
-	color: #525f80;
+	color: #596eb2;
 	font-size: 28px;
 	font-weight: bold;
 	letter-spacing: 2px;
 }
 
 .Results h2 {
-	color: #525f80;
+	color: #596eb2;
 	font-size: 20px;
 }
 
 .Results h3 {
-	color: #8fa8db;
+	color: #7a8cc3;
 	font-size: 18px;
 	margin-bottom: 15px;
 }
 
 .Results h3 span {
-	background-color: rgba(195, 201, 229, 0.25);
+	background-color: rgba(161, 176, 226, 0.15);
 	border-radius: 1px;
 	padding: 0 6px 1px 6px;
 }
 
 .Results em {
-	color: #8fa8db;
+	color: #7a8cc3;
 }
 
 .Results ul {
@@ -34,10 +34,10 @@
 
 .Results li {
 	margin: 0 5px;
-	border: #c3c9e5 solid 1px;
+	border: #b59674 solid 1px;
 	border-radius: 18px;
 	padding: 4px 8px;
-	background-color: rgba(195, 201, 229, 0.15);
-	color: #525f80;
-	font-size: 14px;
+	background-color: rgba(250, 214, 176, 0.25);
+	color: #8a6753;
+	font-size: 13px;
 }
